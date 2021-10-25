@@ -1,0 +1,35 @@
+@font-face {
+  font-family: 'BrandonGrotesqueRegular';
+  src: url("Brandonreg.woff"),
+       url("Brandonreg.woff2"),
+       url("Brandonreg.tff");
+}
+
+body{
+    background:#1f2630;
+    color:#7fafdf;
+    font:20px 'BrandonGrotesqueRegular', Georgia, serif;
+    overflow-x: hidden
+}
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #252e3f;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
